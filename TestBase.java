@@ -1,9 +1,6 @@
 package cs.ads.Testplayer;
 
 import java.time.Duration;
-
-//import java.time.Duration;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
