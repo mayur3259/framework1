@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+<listeners>
+       <listener class-name="cs.ads.Utility.Listerners"/>
+       <listener class-name="cs.ads.Utility.ExtentReporterNG"/>
+   </listeners>
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="functionality.BuyNowFunctionality"/>
+      <class name="functionality.VerticalRoofMetalCarportFunctionality"/>
+      <class name="functionality.BoxedEaveFunctionality"/>
+      <class name="functionality.HomepageFunctionality"/>
+      <class name="functionality.Boat_CarportsFunctionality"/>
+      <class name="functionality.CarportsFunctionality"/>
+      <class name="functionality.Regular_Roof"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
